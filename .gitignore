@@ -1,4 +1,5 @@
 /.idea/workspace.xml
 /out
-
+.idea/
 .idea/compiler.xml
+/src/META-INF/
