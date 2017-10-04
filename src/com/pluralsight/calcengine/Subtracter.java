@@ -1,4 +1,4 @@
-package com.plualsight.calcengine;
+package com.pluralsight.calcengine;
 
 public class Subtracter extends CalculateBase {
     public Subtracter() {}

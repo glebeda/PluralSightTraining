@@ -1,4 +1,4 @@
-package com.plualsight.calcengine;
+package com.pluralsight.calcengine;
 
 public class Multiplier extends CalculateBase {
     public Multiplier() {}

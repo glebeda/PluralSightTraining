@@ -1,4 +1,4 @@
-package com.plualsight.calcengine;
+package com.pluralsight.calcengine;
 
 public class CalculateHelper {
     private static final char ADD_SYMBOL = '+';

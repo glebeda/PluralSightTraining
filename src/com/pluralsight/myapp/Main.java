@@ -1,5 +1,5 @@
-package com.plualsight.myapp;
-import com.plualsight.calcengine.*;
+package com.pluralsight.myapp;
+import com.pluralsight.calcengine.*;
 
 public class Main {
 

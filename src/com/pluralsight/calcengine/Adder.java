@@ -1,4 +1,4 @@
-package com.plualsight.calcengine;
+package com.pluralsight.calcengine;
 
 public class Adder extends CalculateBase {
     public Adder() {}
