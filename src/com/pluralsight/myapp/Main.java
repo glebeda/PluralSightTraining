@@ -2,11 +2,30 @@ package com.pluralsight.myapp;
 import com.pluralsight.calcengine.*;
 
 public class Main {
-
     public static void main(String[] args) {
         //useMathEquation();
         //useCalculateBase();
+        //useCalculateHelper();
+        String[] statements = {
+                "add 25.0 92.0",
+                "power 5.0 2.0" //5.0 ^ 2.0 = 25.0
 
+        };
+        
+        DynamicHelper helper = new DynamicHelper(new MathProcessing[] {
+            new Adder(),
+            new PowerOf()
+        });
+        
+
+        for(String statement:statements) {
+            String output = helper.process(statement);
+            System.out.println(output);
+            
+        }
+    }
+
+    static void useCalculateHelper() {
         String[] statements = {
                 "add 1.0",
                 "add xx 25.0",
@@ -30,6 +49,8 @@ public class Main {
 
         }
     }
+
+
 
     static void useMathEquation() {
             MathEquation[] equations = new MathEquation[4];
